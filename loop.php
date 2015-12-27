@@ -6,6 +6,9 @@ $cars = array(
                 array("Name" => "Nissan Altima", "Model" => "V1"),
             );
 
+            echo "<pre>";
+            var_dump($cars);
+            
 for($i=0;$i<count($cars);$i++){
     $c=0;
     foreach($cars[$i] as $key=>$value){
