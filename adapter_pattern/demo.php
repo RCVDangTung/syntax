@@ -31,7 +31,7 @@ class bookerAdapter implements paymentAdapter {
         
         $this->__test = $demo;
         
-        var_dump($this->__test);
+//        var_dump($this->__test);
     }
 
     public function pay($amount) {

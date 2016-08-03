@@ -2,18 +2,18 @@
 
 // Khoi tao mang 2 chieu
 //$array[] = new stdClass;
-//$array = array();
+$array = array();
 //
 //
-//for ($i = 0; $i <= 12; $i++) {
-////    $array[$i] = array();
-//    for ($j = 0; $j <= 12; $j++) {
-//        $array[$i][$j] = $i * $j;
-//    }
-//}
-//echo "<pre>";
-//var_dump($array);
-
+for ($i = 0; $i <= 2; $i++) {
+//    $array[$i] = array();
+    for ($j = 0; $j <= 2; $j++) {
+        $array[$i][$j] = $i * $j;
+    }
+}
+echo "<pre>";
+var_dump($array);
+die();
 // & refrence
 //http://www.qhonline.info/forum/showthread.php/1480-references-in-php
 //http://www.if-not-true-then-false.com/2009/php-tip-convert-stdclass-object-to-multidimensional-array-and-convert-multidimensional-array-to-stdclass-object/
